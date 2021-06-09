@@ -11,6 +11,8 @@
               <div class="form-group col-6">
                 <label for="Name">Name</label>
                 <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" value="{{$song->name}}">
+                <label for="Name">Choose Image</label>
+                <input type="text" class="form-control @error('image') is-invalid @enderror" id="url" name="url" value="{{$song->url}}">
               </div>
             </div>
             <br>

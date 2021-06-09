@@ -75,6 +75,7 @@ class SongController extends Controller
      */
     public function update(Request $request, Song $song)
     {
+      // dd($request);
       $song->update($request->all());
       return redirect('songs');
     }

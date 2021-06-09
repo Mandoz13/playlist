@@ -10,6 +10,6 @@ class Song extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name',
+        'name','url',
     ];
 }
